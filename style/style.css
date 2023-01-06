@@ -1,6 +1,6 @@
 :root{
-    --font-gap: 1.15em;
-    --section-gap: 8.15em;
+    --font-gap: 1.15rem;
+    --section-gap: 8.15rem;
 }
 
 *{
@@ -20,12 +20,12 @@ header{
     align-items: center;
 }
 .container-1{
+    margin: 0 15rem;
     margin-bottom: var(--section-gap);
-    margin: 0 15em;
 }
 .container-2{
+    margin: 0 25rem;
     margin-bottom: var(--section-gap);
-    margin: 0 25em;
 }
 .header-part{
     padding: var(--section-gap) 0;
@@ -51,10 +51,116 @@ header{
     color: #FFFFFF;
     background-color: #FF5959;
     padding: 0.8em 1.1em;
-    border-radius: .7em;
+    border-radius: .5rem;
     font-weight: 600;
     font-size: 1.25rem;
 }
-.donate-today{
+.donate-today > *{
     text-align: center;
+    margin-bottom: var(--font-gap);
+}
+.headline-text{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.p-text{
+    width: 60%;
+    color: gray;
+    font-size: 1.25rem;
+    margin: auto;
+    margin-bottom: var(--font-gap);
+    text-align: center;
+}
+.taka{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+.taka h1{
+    font-size: 2.4rem;
+    color: #707070;
+}
+.taka > div{
+    min-height: 160px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6rem;
+    background: #FAFAFA;
+}
+.taka div:nth-child(2){
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.taka div:nth-child(2) > h1{
+    color: #FF5959;
+}
+.donate-plane{
+}
+.donate-plane > *{
+    /* text-align: center; */
+    margin-bottom: var(--font-gap);
+}
+.need{
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+}
+.updated{
+    max-width: 40%;
+}
+.need > div{
+    border-radius: .5rem;
+}
+.need > div:nth-child(1){
+    background: #EDF5F6;
+}
+.need > div:nth-child(2){
+    background: #FFEEEE;
+}
+.need > div:nth-child(3){
+    background: #FFF4D6;
+}
+.need > div > div{
+    margin: 5rem 2rem;
+}
+.need > div > div > *{
+    margin-bottom: var(--font-gap);
+}
+.both-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 8rem; */
+}
+.left-side > *{
+    margin-bottom: var(--font-gap);
+}
+.left-side > h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.left-side p{
+    width: 60%;
+    color: gray;
+    font-size: 1.25rem;
+}
+.left-side{
+    width: 40%;
+}
+.right-side-1{
+    display: flex;
+    justify-content: end;
+}
+.right-side-1 > img{
+    width: 90%;
+    border-radius: .5rem;
+}
+.right-side-2 > img{
+    width: 80%;
+    border-radius: .5rem;
 }
