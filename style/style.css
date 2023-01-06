@@ -6,6 +6,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     margin-bottom: var(--section-gap);
@@ -52,7 +53,7 @@ header{
     background-color: #FF5959;
     padding: 0.8em 1.1em;
     border-radius: .5rem;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.25rem;
 }
 .donate-today > *{
@@ -99,8 +100,6 @@ header{
 .taka div:nth-child(2) > h1{
     color: #FF5959;
 }
-.donate-plane{
-}
 .donate-plane > *{
     /* text-align: center; */
     margin-bottom: var(--font-gap);
@@ -112,9 +111,13 @@ header{
 }
 .updated{
     max-width: 40%;
+    margin-bottom: 3rem;
 }
 .need > div{
     border-radius: .5rem;
+}
+.need p{
+    width: 70%;
 }
 .need > div:nth-child(1){
     background: #EDF5F6;
@@ -145,7 +148,7 @@ header{
     font-weight: 800;
 }
 .left-side p{
-    width: 60%;
+    width: 80%;
     color: gray;
     font-size: 1.25rem;
 }
@@ -163,4 +166,49 @@ header{
 .right-side-2 > img{
     width: 80%;
     border-radius: .5rem;
+}
+.contact :is(h1, p){
+    margin-bottom: 1.5rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 14rem;
+    width: auto;
+    background-color: #FFF4D6;
+    border-radius: .5rem;
+    margin-top: 3rem;
+}
+.input input{
+    height: 3.7rem;
+    width: 18rem;
+    border: none;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    padding-left: 1.5rem;
+    font-size: 1.25rem;
+    background: #D9D9D9;
+}
+.ancor-update{
+    margin: unset;
+}
+.ancor-update a{
+    border-radius: unset;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+footer{
+    width: 100%;
+    min-height: 14rem;
+    background: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h1{
+    color: #FF5959;
+}
+footer p{
+    color: #ADAFB6;
 }
